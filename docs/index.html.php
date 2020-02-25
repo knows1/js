@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include __DIR__.'/../layout/head.html'; ?>
+<?php include __DIR__.'/../layout/head.html' ?>
 
 <body>
 <div class="wrapper-main">
