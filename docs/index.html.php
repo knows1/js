@@ -1,22 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title> Zonebiz - Business Consulting Bootstrap4 Responsive Template </title>
-	<!-- Bootstrap core CSS -->
-	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Fontawesome CSS -->
-	<link href="css/all.css" rel="stylesheet">
-	<!-- Owl Carousel CSS -->
-	<link href="css/owl.carousel.min.css" rel="stylesheet">
-	<!-- Owl Carousel CSS -->
-	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
-	<!-- Custom styles for this template -->
-	<link href="css/style.css" rel="stylesheet">
-</head>
+
+<?php include __DIR__.'/../layout/head.html'; ?>
+
 <body>
 <div class="wrapper-main">
 	<!-- Top Bar -->
@@ -95,7 +81,7 @@
             </div>
         </div>
     </nav>
-	
+
     <header class="slider-main">
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -136,9 +122,9 @@
             </a>
         </div>
     </header>
-	
+
     <!-- Page Content -->
-    <div class="container">        
+    <div class="container">
         <!-- About Section -->
         <div class="about-main">
             <div class="row">
@@ -150,7 +136,7 @@
                   <ul>
                      <li>Sed at tellus eu quam posuere mattis.</li>
                      <li>Phasellus quis erat et enim laoreet posuere ac porttitor ipsum.</li>
-                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>                     
+                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                   </ul>
                </div>
                <div class="col-lg-6">
@@ -159,8 +145,8 @@
             </div>
             <!-- /.row -->
         </div>
-	</div>	
-	
+	</div>
+
 	<div class="services-bar">
 		<div class="container">
 			<h1 class="py-4">Our Best Services </h1>
@@ -207,7 +193,7 @@
 						<div class="card-body">
 							<h4 class="card-header"> Consulting </h4>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-						</div>						
+						</div>
 					</div>
 			   </div>
 			   <div class="col-lg-4 mb-4">
@@ -218,7 +204,7 @@
 						<div class="card-body">
 							<h4 class="card-header"> Infrastructure </h4>
 							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-						</div>						
+						</div>
 					</div>
 			   </div>
 			   <div class="col-lg-4 mb-4">
@@ -236,7 +222,7 @@
 			<!-- /.row -->
 		</div>
 	</div>
-		
+
 	<div class="container">
         <!-- Portfolio Section -->
         <div class="portfolio-main">
@@ -345,7 +331,7 @@
             <!-- /.row -->
         </div>
     </div>
-	
+
 	<div class="blog-slide">
 		<div class="container">
 			<h2>Our Blog</h2>
@@ -373,7 +359,7 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac.
 							</p>
 						</div>
-		 
+
 						<div class="post-slide">
 							<div class="post-header">
 								<h4 class="title">
@@ -395,7 +381,7 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac.
 							</p>
 						</div>
-						
+
 						<div class="post-slide">
 							<div class="post-header">
 								<h4 class="title">
@@ -417,7 +403,7 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida nulla eu massa efficitur, eu hendrerit ipsum efficitur. Morbi vitae velit ac.
 							</p>
 						</div>
-						
+
 						<div class="post-slide">
 							<div class="post-header">
 								<h4 class="title">
@@ -444,8 +430,8 @@
 			</div>
 		</div>
 	</div>
-	
-	
+
+
 	<!-- Contact Us -->
 	<div class="touch-line">
 		<div class="container">
@@ -459,7 +445,7 @@
 			</div>
 		</div>
 	</div>
-	
+
     <!-- /.container -->
     <!--footer starts from here-->
     <footer class="footer">
@@ -476,7 +462,7 @@
 						<li><a class="googleplus hb-xs-margin" href="#"><span class="hb hb-xs spin hb-google-plus"><i class="fab fa-google-plus-g"></i></span></a></li>
 						<li><a class="dribbble hb-xs-margin" href="#"><span class="hb hb-xs spin hb-dribbble"><i class="fab fa-dribbble"></i></span></a></li>
 					</ul>
-				</div>	
+				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
 					<!--headin5_amrc-->
@@ -526,13 +512,13 @@
 			</div>
 		</div>
         <div class="container">
-            <p class="copyright text-center">All Rights Reserved. &copy; 2018 <a href="#">Zonebiz</a> Design By : 
+            <p class="copyright text-center">All Rights Reserved. &copy; 2018 <a href="#">Zonebiz</a> Design By :
 				<a href="https://html.design/">html design</a>
             </p>
         </div>
     </footer>
 </div>
-	  
+
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
